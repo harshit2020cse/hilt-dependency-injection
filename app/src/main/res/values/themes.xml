@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.HiltDependencyInjection" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorLightGreen</item>
+        <item name="colorPrimaryVariant">@color/colorLightGreen</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorLightGreen</item>
+        <item name="colorSecondaryVariant">@color/colorLightGreen</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/colorGreen</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!--    EditText Style-->
+    <style name="EditTextStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/_40sdp</item>
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:background">@drawable/bg_edit_text</item>
+        <item name="android:textColorHint">?attr/colorControlHighlight</item>
+    </style>
+
+    <!--    Button Solid Style-->
+    <style name="ButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/_40sdp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@drawable/bg_rounded_solid</item>
+        <item name="backgroundTint">@null</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+</resources>
